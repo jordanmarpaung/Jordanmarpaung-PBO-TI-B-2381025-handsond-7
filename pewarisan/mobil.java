@@ -1,6 +1,6 @@
 package pewarisan;
 
-public class mobil extends Kendaraan {
+public class mobil extends kendaraan {
     private int jumlahPintu;
     private String jenisBahanBakar;
 

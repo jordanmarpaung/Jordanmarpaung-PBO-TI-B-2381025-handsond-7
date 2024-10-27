@@ -1,4 +1,6 @@
 package abstraksiv2;
 
-public class cetak {
+interface Cetak {
+    void print();
+    void scan();
 }

@@ -1,18 +1,18 @@
 package polymorfisme;
 
 public class lingkaran extends BangunDatar{
-    private double jarijar;
+    private double jariJari;
 
     public lingkaran(final double jarijari){
-        this.jarijari = jarijari;
+        this.jariJari = jarijari;
     }
 
     @Override
     public double luas() {
-        return Math.PI * jarijari * jarijari;
+        return Math.PI * jariJari * jariJari;
     }
     @Override
     public double keliling(){
-        return Math.PI * jarijari;
+        return Math.PI * jariJari;
     }
 }

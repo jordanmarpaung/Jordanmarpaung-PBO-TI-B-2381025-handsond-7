@@ -1,11 +1,11 @@
 package pewarisan;
 
-public interface kendaraan {
+public class kendaraan {
     private String merek;
     private String model;
     private int tahunProduksi;
 
-    public Kendaraan(final String merek, final String model, final int tahunProduksi){
+    public kendaraan(final String merek, final String model, final int tahunProduksi){
         this.merek = merek;
         this.model = model;
         this.tahunProduksi = tahunProduksi;

@@ -1,12 +1,12 @@
 package abstraksi;
 
-public class perahu {
-    public class mobil extends kendaraan {
-        super(warna);
-    }
+public class perahu extends kendaraan {
+    public perahu(final String warna){
+    super(warna);
+}
     @Override
     void bergerak(){
-        System.out.println("perahu bergerak diAir.");
+        System.out.println("perahu bergerak diair.");
     }
 }
 

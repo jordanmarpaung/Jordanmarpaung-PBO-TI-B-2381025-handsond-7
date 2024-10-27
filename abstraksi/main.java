@@ -2,13 +2,13 @@ package abstraksi;
 
 public class main {
     public static void main(String[] args) {
-    Mobil mobil = new Mobil("merah");
-    Perahu perahu = new Perahu("Biru");
+    mobil mobil = new mobil("merah");
+    perahu perahu = new perahu("Biru");
 
-    Mobil.info();
-    Mobil.bergerak();
+    mobil.info();
+    mobil.bergerak();
 
-    Perahu.info();
-    Perahu.bergerak();
+    perahu.info();
+    perahu.bergerak();
     }
 }
